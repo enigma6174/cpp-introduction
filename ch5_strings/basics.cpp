@@ -12,6 +12,9 @@ int main() {
     char temp [50] {};
     char complete_name [50] {};
 
+    char name[6] {"curly"};
+    cout << "name: " << name << endl;
+
     cout << "enter first name: ";
     cin >> first_name;
 
